@@ -1,0 +1,48 @@
+CMD
+***Settings***
+BTA=0006666B41AA
+BTName=RNBT-41AA
+Baudrt=9600
+Mode  =Slav
+Authen=1
+PinCod=1234
+Bonded=0
+Rem=108EE0A23DC5
+*** SET COMMANDS ***
+SA,<3,0>   - Authentication
+SC,<hex>   - Service Class
+SD,<hex>   - Device Class
+SE,<1-16>  - UUID
+SF,1       - Factory Defaults
+SH,<hex>   - HID Flags
+SI,<hex>,<hex> - Inquiry Scan Window
+SJ,<hex>,<hex> - Page Scan Window
+SL,<E,O,N> - Parity
+SM,<0-5>   - Mode (0=slav,1=mstr,2=trig,3=auto,4=DTR,5=Any)
+SN,<name>  - Name
+SO,<text>  - Conn/Discon Status
+SP,<text>  - Pin Code
+SR,<adr>   - Remote Address
+SS,<text>  - Service Name
+ST,<num>   - Config Timer
+SU,<rate>  - Baudrate
+SW,<hex>   - Sniff Rate
+SX,<1,0>   - Bonding
+SY,<hex>   - TX Power
+SZ,<num>   - Raw Baudrate
+S~,<0-6>   - Profile (0=SPP,1=DCE,2=DTE,3=MDM,4=D&S,6=HID
+S?,<0-1>   - Role Switch
+S$,<char>  - CMD Mode Char
+S@,<hex>   - IO Port Dir
+S&,<hex>   - IO Port Val
+S%,<hex>   - IO Boot Dir
+S^,<hex>   - IO Boot Val
+S*,<hex>   - PIO(8-11) Set
+S|,<hex>   - Low Power Timers
+S+,<num>   - DTR Timer
+S=,<hex>   - Key Mapper
+S:,<num>   - Sleep Timer
+Inquiry,T=7,COD=0
+Found 1
+244B037B008E,,8043C
+Inquiry Done
